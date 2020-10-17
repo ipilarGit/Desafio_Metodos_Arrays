@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Centro Médico Ñuñoa</title>
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+     <link rel="shortcut icon" type="image/png" href="assets/img/dientes.png">
+
+     <!--Mi estilo-->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+     <h1 class="text-center font-weight-bold p-1">Centro Médico Dental Ñuñoa</h1>
+     <br>
+     <h2 class="text-center font-weight-normal">Estadísticas Centro Médico Ñuñoa</h2>
+     <br>
+     <h3 id="cantidad-dental"></h3>
+
+     <h3 id="cantidad-radio"></h3>
+
+     <h3 id="cantidad-trauma"></h3>
+     <br>
+
+     <h3>Consultas Dentales</h3>
+     <p id="parrafoUno">
+
+
+     </p>
+     <h3>Consultas Radiológicas</h3>
+     <p id="parrafoDos">
+
+
+     </p>
+     <p id="eliminadoRadio">
+
+
+     </p>
+     <h3>Consultas Traumatológicas</h3>
+     <p id="parrafoTres">
+
+
+     </p>
+
+     <table id="tabla" class="table table-hover table-bordered table-striped table-primary">
+          <thead>
+               <tr>
+                    <th scope="col">HORA</th>
+                    <th scope="col">ESPECIALISTA</th>
+                    <th scope="col">PACIENTE</th>
+                    <th scope="col">RUT</th>
+                    <th scope="col">PREVISION</th>
+               </tr>
+          </thead>
+          <tbody id="tbody">
+
+          </tbody>
+     </table>
+
+     <div class="container align-content-center">
+          <button id="btn-dental" class="font-weight-bold">Pacientes Consultas Dentales</button>
+          <button id="btn-radio" class="font-weight-bold">Pacientes Consultas Radiologicas</button>
+          <button id="btn-trauma" class="font-weight-bold">Pacientes Consultas Traumatológicas</button>
+     </div>
+
+     <!-- Lista de consultas medicas de Dental-->
+     <p id="lista-dental">
+
+     </p>
+     <p id="items-dental">
+
+     </p>
+
+     <!--Listado total de pacientes-->
+     <p id="listado-total">
+
+     </p>
+     <p id="items-listado">
+
+     </p>
+
+     <!-- Filtrar pacientes por ISAPRE de consultas Dentales-->
+     <p id="isapre-titulo">
+
+     </p>
+     <p id="items-isapre">
+
+     </p>
+
+     <!-- Filtrar pacientes por FONASA de consultas Traumatologia-->
+     <p id="fonasa-titulo">
+
+     </p>
+     <p id="items-fonasa">
+
+     </p>
+
+     <!--      Estos scripts  se usa para hacer uso de manera remota -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+          crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
+
+     <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
